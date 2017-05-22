@@ -1,0 +1,22 @@
+Environment 0: Action 0
+Environment 1: Action 1
+Environment 2: Action 2
+Environment 3: Action 4
+Environment 4: Action 0
+Environment 5: Action 3
+------------------------
+		/*- EnvironmentCodes
+		 0: ball location unknown
+		 1: ball location known, too far to shoot, not facing ball
+		 2: ball location known, too far to shoot, less than 15m away, facing ball
+		 3: ball location known, too far to shoot, more than 15m away, facing ball
+		 4: ball location known, close enough to shoot, goal location unknown
+		 5: ball location known, close enough to shoot, goal location known
+		 */
+		 /*- ActionCodes
+		 0: turn 40 and wait for new info
+		 1: turn to direction of ball
+		 2: dash towards ball with variable rate
+		 3: kick ball in direction of goal
+		 4: dash towards ball with constant rate of 20
+		*/
